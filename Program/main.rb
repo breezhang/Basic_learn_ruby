@@ -12,7 +12,6 @@ p "first ?"
 
 #require   File.expand_path('../lib/Helloworld', __FILE__)
 
-require File.join(File.dirname(__FILE__), 'lib', 'Helloworld')
 require File.join(File.dirname(__FILE__), 'lib', 'justshowonemessage')
 require File.join(File.dirname(__FILE__), 'lib', 'coffee')
 require File.join(File.dirname(__FILE__), 'lib', 'lookup')
@@ -195,3 +194,5 @@ my_child.identify
 puts <<-Text
 First the meta class, then the class itself, then the included modules (most recently included first), and then the superclass
 Text
+
+

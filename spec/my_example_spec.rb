@@ -17,7 +17,6 @@ describe Helloworld do
     it 'some example' do
       expect(described_class).to eq(Helloworld)
     end
-
   end
 
 end
