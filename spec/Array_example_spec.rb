@@ -5,6 +5,10 @@ describe Array do
 
   its(:size) { is_expected.to be 0 }
 
+  it 'when default Array new' do
+    is_expected.to eq([])
+  end
+
   describe [1, 2, 3, 4] do
     its(:size) { is_expected.to be 4 }
   end
